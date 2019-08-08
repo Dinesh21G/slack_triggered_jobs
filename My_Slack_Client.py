@@ -1,8 +1,8 @@
-import slackmy_clientent, time
+import slackclient, time
 
 token = <YOUR BOT AUTH TOKEN>
 
-my_client = slackmy_clientent.Slackmy_clientent(token)
+my_client = slackclient.Slackclient(token)
 assert my_client.rtm_connect()
 
 jobs = []
